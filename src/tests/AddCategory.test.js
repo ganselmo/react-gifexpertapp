@@ -8,9 +8,9 @@ describe('Test for Add Category component', () => {
     beforeEach(()=>{
         wrapper = shallow(<AddCategory  setCategories={()=>{}}/>)
     })
-    test('should match snapshot', () => {
-        expect(wrapper).toMatchSnapshot();
-    })
+    // test('should match snapshot', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // })
 
     test('should match input value', () => {
         
